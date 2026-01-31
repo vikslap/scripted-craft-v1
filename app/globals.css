@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-charcoal: #2F3640;
+  --color-brand-navy: #192A56;
+  --color-brand-neutral: #F5F6FA;
+  --color-brand-blue: #00A8FF;
+  --color-brand-gold: #E1B12C;
+  
+
+  --font-sans: "Segoe UI", Arial, sans-serif;
+}
+
+/* Updated for the Light Background */
+body {
+  background-color: var(--color-brand-neutral);
+  color: var(--color-brand-charcoal);
+  font-family: var(--font-sans);
+}
